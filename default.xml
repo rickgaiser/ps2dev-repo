@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Repositories -->
+  <remote name="ps2dev"     fetch="https://github.com/ps2dev" />
+  <remote name="rickgaiser" fetch="https://github.com/rickgaiser" />
+  <remote name="madler"     fetch="https://github.com/madler" />
+  <remote name="glennrp"    fetch="https://github.com/glennrp" />
+  <remote name="freetype"   fetch="https://git.savannah.gnu.org/git/freetype" />
+  <remote name="hyperrealm" fetch="https://github.com/hyperrealm" />
+  <remote name="uyjulian"   fetch="https://github.com/uyjulian" />
+  <remote name="ifcaro"     fetch="https://github.com/ifcaro" />
+
+  <!-- Scripts -->
+  <project path="."                      name="ps2dev-scripts" revision="master"            remote="rickgaiser" />
+
+  <!-- EE Toolchain -->
+  <project path="toolchain/ee/binutils"  name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
+  <project path="toolchain/ee/gcc"       name="gcc-ps2"        revision="ps2-v3.2.3"        remote="rickgaiser" />
+  <project path="toolchain/ee/newlib"    name="newlib"         revision="ps2-v1.10.0"       remote="rickgaiser" />
+
+  <!-- IOP Toolchain -->
+  <project path="toolchain/iop/binutils" name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
+  <project path="toolchain/iop/gcc"      name="gcc-ps2"        revision="ps2-v3.2.3"        remote="rickgaiser" />
+
+  <!-- DVP Toolchain -->
+  <project path="toolchain/dvp/binutils" name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
+
+  <!-- Tools -->
+  <project path="tools/ps2client"        name="ps2client"      revision="master"            remote="ps2dev" />
+  <project path="tools/ps2-packer"       name="ps2-packer"     revision="master"            remote="ps2dev" />
+
+  <!-- Libraries (PS2) -->
+  <project path="libs/gsKit"             name="gsKit"          revision="master"            remote="ps2dev" />
+  <project path="libs/ps2sdk"            name="ps2sdk"         revision="master"            remote="ps2dev" />
+
+  <!-- Libraries (Ports) -->
+  <project path="libs/freetype"          name="freetype2"      revision="refs/tags/VER-2-9" remote="freetype" />
+  <project path="libs/libconfig"         name="libconfig"      revision="refs/tags/v1.7.2"  remote="hyperrealm" />
+  <project path="libs/libpng"            name="libpng"         revision="refs/tags/v1.5.17" remote="glennrp" />
+  <project path="libs/ps2sdk-ports"      name="ps2sdk-ports"   revision="master"            remote="ps2dev" />
+  <project path="libs/zlib"              name="zlib"           revision="refs/tags/v1.2.11" remote="madler" />
+
+  <!-- Applications -->
+  <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="master"           remote="rickgaiser" />
+  <project path="apps/ps2link"           name="ps2link"         revision="master"           remote="ps2dev" />
+
+</manifest>
+
