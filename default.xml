@@ -43,6 +43,7 @@
   <!-- Applications -->
   <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="bdm"              remote="rickgaiser" />
   <project path="apps/ps2link"           name="ps2link"         revision="master"           remote="ps2dev" />
+  <project path="apps/ps2-rw-speed"      name="ps2-rw-speed"    revision="master"           remote="rickgaiser" />
 
 </manifest>
 
