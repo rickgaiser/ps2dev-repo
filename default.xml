@@ -16,7 +16,7 @@
   <!-- EE Toolchain -->
   <project path="toolchain/ee/binutils"  name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
   <project path="toolchain/ee/gcc"       name="gcc-ps2"        revision="ps2-v3.2.3"        remote="rickgaiser" />
-  <project path="toolchain/ee/newlib"    name="newlib"         revision="ps2-v1.10.0"       remote="rickgaiser" />
+  <project path="toolchain/ee/newlib"    name="newlib"         revision="move-to-newlib"    remote="rickgaiser" />
 
   <!-- IOP Toolchain -->
   <project path="toolchain/iop/binutils" name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
@@ -31,13 +31,13 @@
 
   <!-- Libraries (PS2) -->
   <project path="libs/gsKit"             name="gsKit"          revision="master"            remote="ps2dev" />
-  <project path="libs/ps2sdk"            name="ps2sdk"         revision="master"            remote="ps2dev" />
+  <project path="libs/ps2sdk"            name="ps2sdk"         revision="move-to-newlib"    remote="rickgaiser" />
 
   <!-- Libraries (Ports) -->
   <project path="libs/freetype"          name="freetype2"      revision="refs/tags/VER-2-9" remote="freetype" />
   <project path="libs/libconfig"         name="libconfig"      revision="refs/tags/v1.7.2"  remote="hyperrealm" />
   <project path="libs/libpng"            name="libpng"         revision="refs/tags/v1.5.17" remote="glennrp" />
-  <project path="libs/ps2sdk-ports"      name="ps2sdk-ports"   revision="master"            remote="ps2dev" />
+  <project path="libs/ps2sdk-ports"      name="ps2sdk-ports"   revision="move-to-newlib"    remote="rickgaiser" />
   <project path="libs/zlib"              name="zlib"           revision="refs/tags/v1.2.11" remote="madler" />
 
   <!-- Applications -->
