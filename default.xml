@@ -11,7 +11,7 @@
   <remote name="ifcaro"     fetch="https://github.com/ifcaro" />
 
   <!-- Scripts -->
-  <project path="."                      name="ps2dev-scripts" revision="master"            remote="rickgaiser" />
+  <project path="."                      name="ps2dev-scripts" revision="new-toolchain"     remote="rickgaiser" />
 
   <!-- EE Toolchain -->
   <project path="toolchain/ee/binutils"  name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
@@ -19,8 +19,8 @@
   <project path="toolchain/ee/newlib"    name="newlib"         revision="ps2-v1.10.0"       remote="rickgaiser" />
 
   <!-- IOP Toolchain -->
-  <project path="toolchain/iop/binutils" name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
-  <project path="toolchain/iop/gcc"      name="gcc-ps2"        revision="ps2-v3.2.3"        remote="rickgaiser" />
+  <project path="toolchain/iop/binutils" name="binutils-ps2"   revision="ps2-v2.29"         remote="rickgaiser" />
+  <project path="toolchain/iop/gcc"      name="gcc-ps2"        revision="ps2-v7.2.0"        remote="rickgaiser" />
 
   <!-- DVP Toolchain -->
   <project path="toolchain/dvp/binutils" name="binutils-ps2"   revision="ps2-v2.14"         remote="rickgaiser" />
@@ -31,7 +31,7 @@
 
   <!-- Libraries (PS2) -->
   <project path="libs/gsKit"             name="gsKit"          revision="master"            remote="ps2dev" />
-  <project path="libs/ps2sdk"            name="ps2sdk"         revision="master"            remote="ps2dev" />
+  <project path="libs/ps2sdk"            name="ps2sdk"         revision="new-toolchain"     remote="rickgaiser" />
 
   <!-- Libraries (Ports) -->
   <project path="libs/freetype"          name="freetype2"      revision="refs/tags/VER-2-9" remote="freetype" />
@@ -41,7 +41,7 @@
   <project path="libs/zlib"              name="zlib"           revision="refs/tags/v1.2.11" remote="madler" />
 
   <!-- Applications -->
-  <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="master"           remote="rickgaiser" />
+  <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="new-toolchain"    remote="rickgaiser" />
   <project path="apps/ps2link"           name="ps2link"         revision="master"           remote="ps2dev" />
 
 </manifest>
