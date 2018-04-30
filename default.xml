@@ -31,7 +31,7 @@
 
   <!-- Libraries (PS2) -->
   <project path="libs/gsKit"             name="gsKit"          revision="master"            remote="ps2dev" />
-  <project path="libs/ps2sdk"            name="ps2sdk"         revision="master"            remote="ps2dev" />
+  <project path="libs/ps2sdk"            name="ps2sdk"         revision="bdm-clean"         remote="rickgaiser" />
 
   <!-- Libraries (Ports) -->
   <project path="libs/freetype"          name="freetype2"      revision="refs/tags/VER-2-9" remote="freetype" />
@@ -41,7 +41,7 @@
   <project path="libs/zlib"              name="zlib"           revision="refs/tags/v1.2.11" remote="madler" />
 
   <!-- Applications -->
-  <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="master"           remote="rickgaiser" />
+  <project path="apps/open-ps2-loader"   name="Open-PS2-Loader" revision="bdm"              remote="rickgaiser" />
   <project path="apps/ps2link"           name="ps2link"         revision="master"           remote="ps2dev" />
 
 </manifest>
